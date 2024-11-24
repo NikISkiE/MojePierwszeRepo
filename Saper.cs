@@ -71,7 +71,7 @@ class Program
 
 
 
-                        if (count is 0)
+                        if (count == 0)
 
                         {
 
@@ -364,7 +364,7 @@ class Program
 
 
 
-        return uncoveredCount == width*height - bombCount;
+        return uncoveredCount == width * height - bombCount;
 
     }
 
